@@ -1,0 +1,42 @@
+#header-img {
+  width: 50px;
+  padding: 10px;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 2000px;
+  margin: 5%;
+}
+
+#nav-bar {
+  width: 500px;
+  text-align: center;
+  padding: 5%;
+  position: absolute;
+  top: 12%;
+  right: 5%;
+}
+
+.nav-link {
+  padding: 0 1%;
+}
+
+#video {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  body {
+    background: #f8f8f8;
+  }
+}
